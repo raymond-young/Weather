@@ -1,4 +1,4 @@
-import {AppBar, IconButton, Toolbar, Typography} from '@material-ui/core/';
+import {AppBar, IconButton, Toolbar, Typography} from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import * as React from 'react';
 // import { Nav, Navbar, NavItem } from 'react-bootstrap';
@@ -13,9 +13,12 @@ export const Header: React.StatelessComponent<{}> = () => {
                         <MenuIcon aria-haspopup="true"/>
                     </IconButton>
                     <Typography variant="display2" color="inherit">
-                        <Link style={{color: "white"}} to="/">dankNotDank</Link>
+                        {/* <Link style={{color: "white"}} to="/"> MSA Phase 1</Link>
                         <Link to="/FirstComponent"> Page 1 </Link>
                         <Link to="/SecondComponent"> Page 2 </Link>
+                        <Link to="/ThirdComponent"> Weather </Link> */}
+                        <Link style={{color: "white"}} to="/Weather"> Weather </Link>
+
                     </Typography>
                 </Toolbar>
             </AppBar>

@@ -1,8 +1,8 @@
+import { Button } from '@material-ui/core';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import * as React from 'react';
 import Dropzone from 'react-dropzone';
 // import Loader from 'react-loader-spinner';
-import { Button } from '../node_modules/@material-ui/core';
 import './App.css';
 import {ThemeContext, themes} from './theme-context';
 
@@ -14,6 +14,9 @@ interface IState {
   theme: any,
   toggleTheme: any
 }
+
+// Zomato API key: 01bea38eaeb5bf5e14c78b7e8f216d06
+// CurrencyLayer API Key: 8d89819714fa0e0a93ae5f61a9133a00
 
 export default class App extends React.Component<{}, IState> {
 

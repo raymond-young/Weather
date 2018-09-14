@@ -2,8 +2,14 @@
     text-align: center;
   }
   
-  h1 {
+ .h1 {
     font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
   }
   
   .dropZone {
@@ -21,3 +27,21 @@
   .dank {
   padding-top: 20px;
   }
+
+  .table, th, td {
+    border: 1px solid black;
+    text-align: left;
+}
+
+.table th{
+  background-color: #4863A0;
+  color: white;
+  padding: 15px;
+}
+
+.table td{
+  padding: 12px;
+}
+
+.table tr:nth-child(odd) {background-color: #f2f2f2;}
+
