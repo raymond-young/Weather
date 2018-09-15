@@ -1,3 +1,4 @@
-# MSA-P1
+# Weather Application(MSA-P1)
 
-This is my submission for the first phase of MSA-2018
+A web application build with ReactJS using the https://www.weatherbit.io/ API. It gives a 16-day forecast about the weather in a city.
+Demo https://rayyoungweatherapp.azurewebsites.net/
