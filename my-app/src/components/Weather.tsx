@@ -77,7 +77,7 @@
           return<p>Loading ...</p>;
         }
     
-        
+        // const weatherIcon = 1;
     
     
         return (
@@ -103,13 +103,14 @@
                 {
                    
                   weathers.map((data) =>
-  
                         <tr key={data}>
                         <td>{data.datetime} </td>
-                        <td>{data.weather.description} </td>
-                        {/* <img src= "https://www.weatherbit.io/static/img/icons/\{data.weather.icon\}.png" height="50" width="50"/>  */}
+                        <td> 
+                          <img src= {"https://www.weatherbit.io/static/img/icons/"+data.weather.icon+".png"} height="40" width="40"/>
+                          {data.weather.description} 
+                        </td>
                         <td>Low: {data.min_temp}°C, High: {data.max_temp}°C </td>
-                        <td>Wind speed: {data.wind_spd}, {data.wind_cdir}</td>
+                        <td>Wind speed: {data.wind_spd}km/h, {data.wind_cdir}</td>
                         </tr>
                     )
                     // <tr key={data}><td>{data.datetime} </td><td>test1</td><td>test2</td></tr>
