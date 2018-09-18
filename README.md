@@ -17,3 +17,6 @@ To write a production build, run the following
 ```
 npm build
 ```
+
+![Screenshot](https://github.com/rayyoung122/Weather-API-MSA-P1/blob/master/weatherGUI.png)
+
